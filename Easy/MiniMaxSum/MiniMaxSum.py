@@ -22,6 +22,24 @@ def miniMaxSum(arr):
       
     print((sum - maxVal) , (sum - minVal))
     
+    """
+    2nd Solution
+    
+    maxVal2 = 0
+    for item in arr:
+        
+        if item > maxVal2:
+            maxVal2 = item
+            
+    minVal2 = maxVal2
+    for item in arr:
+        
+        if item < minVal2:
+            minVal2 = item
+        
+            
+    print((sum - maxVal2) , (sum - minVal2))
+    """
     
 if __name__ == '__main__':
 
